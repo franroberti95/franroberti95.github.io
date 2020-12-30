@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Login from './screens/login';
 import reportWebVitals from './reportWebVitals';
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+  }
+  button,div,h1,h2,h3,h4,p,li{
+    font-family: 'Source Sans Pro',serif;
+  }
+`;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GlobalStyle />
+    <Login />
   </React.StrictMode>,
   document.getElementById('root')
 );
