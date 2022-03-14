@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Experience = () =>
     <section>
         <SectionTitle>Experience</SectionTitle>
-        <FirstP>Fullstack developer, focused in front-end programming using React.js.</FirstP>
+        <FirstP>Fullstack developer, focused in front-end programming using React.js and React native.</FirstP>
         <SecondP>Good knowledge in Web UI developing using newest front-end technologies and tools, such as <b>WebStorm IDE, Bitbucket, JIRA, Figma, Webpack, HTML5, CSS3/SCSS/SASS/LESS, JavaScript/ES6, React/Redux/Mobx, Material Design, GreenSock.</b></SecondP>
         <ThirdP>I also have back-end knowledge, creating <b>RESTful API with Node.js/Golang and NoSQL MongoDB database, as well as Relational databases, such as PGSql.</b></ThirdP>
     </section>
